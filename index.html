@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang "en">
+<head>
+	<meta charset="utf-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+	// // придумайте название переменным, которые описывают цену, макс.число, имя пользователя, константу минимальная цена:
+	// var 	price=100;
+	// 		maxNumber=25;
+	// 		name="Karina";
+	// 		MINPRICE=35;
+
+	// что будет в консоле?
+
+	// console.log(test);
+	// var test='string';
+	// ОТВЕТ :Underfined
+
+	// var x='string';
+	// var	x='string №2';
+	// console.log(x);
+	// ОТВЕТ: string №2
+
+	// что будет в консоле?
+
+	// console.log(test);
+	// let test='string';
+	// ОТВЕТ :ошибка
+
+	// const x='string';
+	// 	x='string №2';
+	// console.log(x);
+	// ОТВЕТ: string
+
+	// let someVariable=15;
+	// let someVariable=10;
+	// ОТВЕТ:ошибка
+
+	var str = "some test string";
+	// вывести текст
+	console.log ("some test string");
+	// считаем длину строки
+	console.log (str.length);
+	// получаем первый символ
+	console.log (str[0]); 
+	// получаем последний символ
+	console.log (str[15]);
+	// сделать первую и последнюю букву в верхнем регистре
+	console.log (str2=str[0].toUpperCase ()+str.substring(1,15)+str[15].toUpperCase());
+	// найти положение слова string в строке"
+	console.log (str.indexOf("string"));
+	// найти положение второго пробела в строке
+	console.log (str.indexOf(" ",2));
+	// Получить строку с 5 символа длиной 4 буквы;
+	console.log (str.substr (5,4));
+	// Получить строку с 5 символа по 9 ;
+	console.log (str.substring (5,9));
+	// Получить строку без последних 6 символов ;
+	console.log (str.slice (0,10));
+	// a=20.b=16, получить переменную string в которой будет содержаться текст "2016";
+	var a = 20 + "";
+		b = 16 + "";
+		c = a+b;
+	console.log (c.toString ());	
+	// Получить число Pi из Math и округлить его до 2хзнаков;
+	console.log (Math.PI);
+	console.log (Math.PI.toFixed(2));
+	// Получить максимальное и минимальное значение; 
+	console.log (Math.min(15,11,16,12,51,12,13,51));
+	console.log (Math.max(15,11,16,12,51,12,13,51));
+	// Получить случайное число и округлить его до 2хзнаков;
+	console.log (Math.random().toFixed(2));
+	// Получить случайное целое  число в диапазоне от 0 до х;
+	// console.log (Math.floor(Math.random(0,[x])));
+	// Проверить 0,6+,07
+	var a=0.6+0.7;
+	console.log(+a.toFixed (10));
+	console.log(a>1.3);
+	// получить число из строки '100$'
+	console.log(parseInt('100$'));
+	// создать объект с полем  product, равным 'iphone'
+	console.log(obj = {product: "iphone", price: "1000", currency: "dolar"});
+	// создать объект с полем  product, равным 'iphone', добавить поле details и в него вложить еще один объект
+	console.log(obj = {product: "iphone", price: "1000", currency: "dolar", details:{model :"S6", color:"white"}});
+	</script>
+	
+</body>
+</html>
